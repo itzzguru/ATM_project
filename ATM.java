@@ -8,7 +8,6 @@ public class ATM {
         int TakeAmount = 0;
         String name;
         Scanner sc = new Scanner(System.in);
-        // we have to take an input by an user
         System.out.println("Enter your pin number");
         int password = sc.nextInt();
         if (password == pin) {
