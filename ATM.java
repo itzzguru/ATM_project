@@ -22,7 +22,7 @@ public class ATM {
                 int opt = sc.nextInt();
                 switch (opt) {
                     case 1:
-                        System.out.println("your current balance is 123" + balance);
+                        System.out.println("your current balance is " + balance);
                         break;
                     case 2:
                         System.out.println("How much amount did you want to add to your account");
